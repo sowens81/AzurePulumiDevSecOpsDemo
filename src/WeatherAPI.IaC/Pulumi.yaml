@@ -1,0 +1,12 @@
+name: WeatherAPI
+runtime: dotnet
+description: A .Net Weather API deployed on an Azure App Services as a Container using Azure Key Vault.
+config:
+  azure-native:location: UkSouth
+  WeatherAPI:costCenter: ""
+  WeatherAPI:environment: ""
+  WeatherAPI:keyVaultName: ""
+  WeatherAPI:location: ""
+  WeatherAPI:locationShort: ""
+  WeatherAPI:resourceGroupName: ""
+  WeatherAPI:tenantId: ""

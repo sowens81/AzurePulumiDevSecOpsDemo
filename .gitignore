@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Pulumi Configuration Files
+Pulumi.*.yaml
