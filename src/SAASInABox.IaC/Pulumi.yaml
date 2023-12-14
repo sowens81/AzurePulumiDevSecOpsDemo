@@ -1,0 +1,12 @@
+name: SAASInABox
+runtime: dotnet
+description: A .Net Weather API deployed on an Azure App Services as a Container using Azure Key Vault.
+config:
+  azure-native:location: UkSouth
+  SAASInABox:costCenter: ""
+  SAASInABox:environment: ""
+  SAASInABox:keyVaultName: ""
+  SAASInABox:location: ""
+  SAASInABox:locationShort: ""
+  SAASInABox:resourceGroupName: ""
+  SAASInABox:tenantId: ""

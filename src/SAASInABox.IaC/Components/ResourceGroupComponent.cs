@@ -1,7 +1,7 @@
 ﻿using Pulumi;
 using Pulumi.AzureNative.Resources;
 
-namespace WeatherAPI.Pulumi.Azure.Components
+namespace SAASInABox.IaC.Components
 {
     public class ResourceGroupComponent : ComponentResource
     {

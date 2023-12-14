@@ -7,7 +7,7 @@ using Pulumi;
 using Pulumi.Azure.Core;
 using Pulumi.Testing;
 
-namespace WeatherAPI.IaC.UnitTests
+namespace SAASInABox.IaC.UnitTests
 {
     /// <summary>
     /// x

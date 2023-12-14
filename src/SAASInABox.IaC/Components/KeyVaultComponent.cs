@@ -1,7 +1,7 @@
 ﻿using Pulumi;
 using KeyVault = Pulumi.AzureNative.KeyVault;
 
-namespace WeatherAPI.Pulumi.Azure.Components
+namespace SAASInABox.IaC.Components
 {
     public class KeyVaultComponent : ComponentResource
     {

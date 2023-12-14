@@ -1,9 +1,9 @@
 ﻿using System;
-using WeatherAPI.Pulumi.Azure.Components;
+using SAASInABox.IaC.Components;
 using Pulumi;
 using Pulumi.AzureNative.Resources;
 
-namespace WeatherAPI.IaC
+namespace SAASInABox.IaC
 {
 	public class WebsiteStack : Stack
 	{

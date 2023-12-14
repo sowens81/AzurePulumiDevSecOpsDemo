@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Pulumi;
 using Pulumi.Testing;
 
-namespace WeatherAPI.IaC.UnitTests
+namespace SAASInABox.IaC.UnitTests
 {
     /// <summary>
     /// x
