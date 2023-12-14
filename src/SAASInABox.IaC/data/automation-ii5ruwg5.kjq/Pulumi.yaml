@@ -1,0 +1,3 @@
+name: SAASInABox
+runtime: dotnet
+main: /App

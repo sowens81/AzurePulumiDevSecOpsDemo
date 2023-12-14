@@ -1,7 +1,4 @@
-﻿# Define a variable with a default value
-ARG APP_NAME
-
-# Build stage
+﻿# Build stage
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 WORKDIR /App
 
@@ -18,4 +15,4 @@ WORKDIR /App
 COPY --from=build-env /App/out .
 ENV x=$x
 
-ENTRYPOINT ["dotnet", "${APP_NAME}.dll"]
+ENTRYPOINT ["dotnet", "SAASInABox.IaC.dll"]
